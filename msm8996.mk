@@ -90,7 +90,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     AntHalService \
     com.dsi.ant.antradio_library
-
+    
+# Bluetooth
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.btconfigstore@1.0.vendor
+    
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@2.0-impl \
