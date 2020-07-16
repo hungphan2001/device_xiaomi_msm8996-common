@@ -127,8 +127,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.dbg.volte_avail_ovr=1 \
     persist.dbg.vt_avail_ovr=1 \
     service.qti.ims.enabled=1 \
-    persist.dbg.wfc_avail_ovr=1
-
+    persist.dbg.wfc_avail_ovr=1 \
+    persist.radio.VT_CAM_INTERFACE=2 \
+    persist.radio.VT_ENABLE=1 \
+    persist.radio.VT_HYBRID_ENABLE=1
+    
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
     vendor.vidc.enc.disable.pq=true \
